@@ -3,8 +3,12 @@ var sequelize = require("../config/connection.js");
 
 var Rider = sequelize.define("Rider", {
     name: Sequelize.STRING,
+    number: Sequelize.STRING,
+    gender: Sequelize.STRING,
     destination: Sequelize.STRING,
     route: Sequelize.STRING,
+    passengers: Sequelize.STRING,
+    rating: Sequelize.STRING,
 });
 
 Rider.sync();
