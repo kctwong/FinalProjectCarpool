@@ -8,10 +8,10 @@ const createRoutes = () => {
     return (
         <Route
           path='/'
-          componet={Template}
+          component={Template}
         >
          <IndexRoute
-         componet={Home}
+         component={Home}
          />
          <Route
          path={'/profile'}
